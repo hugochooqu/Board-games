@@ -1,0 +1,142 @@
+body {
+  margin: 0%;
+}
+
+.scorecard {
+  width: 40vw;
+  height: 18vh;
+  border: 1px solid rgb(184, 177, 177);
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  top: 5%;
+  left: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.score-title {
+  line-height: 0.8;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 25px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+}
+
+.score {
+  position: relative;
+  left: 40%;
+  top: 20px;
+  width: 8vw;
+  height: 12vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.score h3 {
+  margin: 0px;
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+.score h1 {
+  margin: 0px;
+  color: rgb(48, 47, 47);
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: -1;
+}
+
+.triangle {
+  position: relative;
+  left: 38%;
+  top: 130px;
+}
+
+.rock-button{
+  border-radius: 100%;
+  border: 18px solid red;
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  position: relative;
+  left: 21.7%;
+  top: 110px;
+}
+
+.paper-button{
+  border-radius: 100%;
+  border: 18px solid blue;
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  position: relative;
+  left: 2.5%;
+  top: -105px;
+}
+
+.scissors-button{
+  border-radius: 100%;
+  border: 18px solid orange;
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  position: relative;
+  left: 12.7%;
+  top: -110px;
+}
+
+.rules-btn{
+  position: relative;
+  top: 200px;
+  left: 35%;
+  width: 7%;
+  height: 30px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  font-size: 11px;
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0,0,0,0.55);
+}
+
+.modal{
+  position: fixed;
+  top: 20vh;
+  left: 40%;
+  width: 20vw;
+  height: 45vh;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  z-index: 30;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+
+.rules h1{
+  margin: 0%;
+  font-size: larger;
+  color: rgb(48, 42, 42);
+  letter-spacing: -1.5px;
+}
+
+.rules-img{
+  width: 17vw;
+  position: relative;
+  left: 7%;
+  top: 40px;
+}
