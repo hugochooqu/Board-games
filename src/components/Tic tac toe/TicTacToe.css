@@ -9,6 +9,37 @@
   background-color: #1b274a;
 }
 
+.back{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 9px;
+  font-weight: 10;
+  padding: 10px 40px 0 0;
+  text-decoration: none;
+}
+.ttt-title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:120px 60px;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.ttt-title h3{
+  color: green;
+}
+
+.ttt-title h2{
+  color: red;
+}
+
+.ttt-title h1{
+  color: yellow;
+}
+
 table td {
   border: 1px solid grey;
   width: 100px;
@@ -39,7 +70,7 @@ table td {
   margin-bottom: 10px;
   font-size: 24px;
   display: none;
-  color: white;
+  color: yellow;
 }
 
 .winner.show {

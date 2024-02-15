@@ -2,6 +2,44 @@ body {
   margin: 0%;
 }
 
+.home{
+  background-color: #1B274A;
+  height: 100vh;
+  margin: 0px;
+}
+
+.home-title{
+  font-size: 70px;
+  text-align: center;
+  font-family: cursive;
+  color: yellow;
+  margin: 0px;
+  padding-top: 20px;
+
+}
+
+.games-btn{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.games-btn button{
+  height: 200px;
+  width: 17vw;
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: cursive;
+  border: 0;
+
+}
+
 .scorecard {
   width: 40vw;
   height: 18vh;

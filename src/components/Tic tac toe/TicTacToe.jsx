@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./TicTacToe.css";
+import { Link } from "react-router-dom";
 
 export default function TicTacToe() {
   const [turn, setTurn] = useState("X");
@@ -78,6 +79,14 @@ export default function TicTacToe() {
 
   return (
     <div className="container">
+      <Link to="/" className="back">
+        <h1>{`${"<<"}`} Back to home</h1>
+      </Link>
+      <div className="ttt-title">
+      <h3>TIC TAC TOE</h3>
+      <h2>TIC TAC TOE</h2>
+      <h1>TIC TAC TOE</h1>
+      </div>
       <div className={`winner ${winner || isDraw ? "show" : ""}`}>
         {winner ? `Winner is: ${winner}` : isDraw ? "Its a draw" : ""}
       </div>
