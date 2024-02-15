@@ -12,9 +12,11 @@ const Root = () => {
             Tic Tac Toe
         </button>
         </Link>
+        <Link to="Rock-paper-scissors">
         <button>
             Rock Paper Scissors
         </button>
+        </Link>
         </div>
     </div>
   )

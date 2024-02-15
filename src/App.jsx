@@ -7,6 +7,7 @@ import Rules from "./components/Rules";
 import Game from "./components/Game";
 import Root from "./components/Root";
 import TicTacToe from "./components/Tic tac toe/TicTacToe";
+import Rps from "./components/Rock paper scissors/Rock-paper-scissors";
 
 function App() {
   const [rulesIsShown, setRulesIsShown] = useState(false);
@@ -25,14 +26,8 @@ function App() {
       element: <Root />,
     },
     {
-      path: "/player",
-      element: <Player />,
-      children: [
-        {
-          path: "/player/game",
-          element: <Game />,
-        },
-      ],
+      path: "/rock-paper-scissors",
+      element: <Rps />,
     },
     {
       path: "Tictactoe",
